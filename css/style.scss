@@ -120,7 +120,7 @@ body {
                 flex-basis: 22%;
                 max-width: 100%;
                 margin-left: 1%;
-                padding: 15px 0;
+                padding: 5px 0;
                 @media(max-width: 767px) {
                     flex-basis: 100%;
                     max-width: 100%;
@@ -629,7 +629,7 @@ body {
                 border-right: none;
             }
             ul {
-                @media(max-width:991px){
+                @media(max-width: 991px) {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -643,14 +643,13 @@ body {
                         padding: 15px 0 15px 10px;
                         width: 100%;
                         display: inline-block;
-                        @media(max-width:991px){
-                           margin-left: 8px;
+                        @media(max-width: 991px) {
+                            margin-left: 8px;
                         }
-                        @media(max-width:991px){
+                        @media(max-width:991px) {
                             font-size: 12px;
                             font-weight: bold;
-                         }
-                      
+                        }
                         &:hover {
                             color: orange;
                             margin: 0 0 0 5px;
@@ -659,8 +658,8 @@ body {
                     a.active {
                         border-left: 1px solid orange;
                         color: orange;
-                        @media(max-width:991px){
-                            border:none
+                        @media(max-width: 991px) {
+                            border: none
                         }
                     }
                 }
@@ -782,16 +781,16 @@ body {
             h6 {
                 flex-basis: 30%;
                 max-width: 100%;
-                @media(max-width:425px){
-                    font-size:12px
+                @media(max-width: 425px) {
+                    font-size: 12px
                 }
             }
             p {
                 flex-basis: 70%;
                 max-width: 100%;
-                  @media(max-width:425px){
-                    font-size:11px;
-                    text-align:right;
+                @media(max-width: 425px) {
+                    font-size: 11px;
+                    text-align: right;
                 }
             }
         }
@@ -799,9 +798,9 @@ body {
             position: absolute;
             bottom: 20px;
             right: 20px;
-            @media(max-width:425px){
-                right:0;
-                bottom:0;
+            @media(max-width: 425px) {
+                right: 0;
+                bottom: 0;
             }
             a {
                 text-decoration: none;

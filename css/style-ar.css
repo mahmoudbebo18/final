@@ -28,7 +28,12 @@ body {
     justify-content: flex-end; }
     .navbar .navbar-nav .nav-item .dropdown-menu {
       right: auto;
-      left: 0; }
+      left: 0;
+      text-align: right;
+      direction: rtl; }
+      .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item i {
+        margin-right: 0 !important;
+        margin-left: 10px !important; }
     .navbar .navbar-nav .nav-item .nav-link {
       color: #fff; }
 
@@ -715,10 +720,12 @@ body {
     padding-bottom: 20px; }
   .payment h4 {
     border: none;
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
   .payment p {
     margin-bottom: 32px;
-    font-size: 18px; }
+    font-size: 18px;
+    text-align: center; }
   @media (max-width: 991px) {
     .payment .pay-manner {
       flex-direction: row !important; } }
